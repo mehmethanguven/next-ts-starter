@@ -18,14 +18,12 @@ export default function Home() {
     })
   return (
     <div className="mx-auto flex flex-col items-center justify-center md:mb-10">
-      <h1 className="mt-10 mb-2 text-3xl font-bold text-gray-500 md:text-4xl">
-        Welcome to <a href="https://nextjs.org">Next.js!</a>
+      <h1 className="mt-10 mb-4 text-3xl font-bold text-gray-500 md:text-3xl">
+        Welcome to Next.js starter project
       </h1>
-      <p className="text-lg md:text-xl">
-        Get started by editing{' '}
-        <code className="rounded-lg bg-gray-100 p-2 text-sm">
-          pages/index.js
-        </code>
+      <p className="text-lg text-gray-500 md:text-lg">
+        Based on: Next.js - Typescript - Jest - Cypress - Tailwindcss - Eslint -
+        Prettier - Lintstaged - Hasky
       </p>
       <div className="m-4 mt-10 grid max-w-5xl grid-cols-1 gap-5 md:grid-cols-2">
         <CardContainer>
