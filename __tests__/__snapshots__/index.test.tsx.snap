@@ -1,0 +1,156 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home should to match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="flex min-h-screen flex-col justify-center"
+  >
+    <main
+      class="mx-auto flex flex-col items-center justify-center md:mb-10"
+    >
+      <h1
+        class="mt-10 mb-2 text-3xl font-bold text-gray-500 md:text-5xl"
+      >
+        Welcome to 
+        <a
+          href="https://nextjs.org"
+        >
+          Next.js!
+        </a>
+      </h1>
+      <p
+        class="text-lg md:text-2xl"
+      >
+        Get started by editing 
+        <code
+          class="rounded-lg bg-gray-100 p-2 text-sm"
+        >
+          pages/index.js
+        </code>
+      </p>
+      <div
+        class="m-4 mt-10 grid max-w-5xl grid-cols-1 gap-5 md:grid-cols-2"
+      >
+        <div
+          class="min-w-1/2 flex h-40 items-center rounded-lg border-2 border-gray-200 p-5"
+        >
+          <div
+            class="flex w-full flex-row items-center justify-between"
+          >
+            <h2>
+              React toastify
+            </h2>
+            <button
+              class="mt-2 rounded-lg border border-gray-400 bg-white px-4 py-2 text-gray-900 shadow-lg"
+            >
+              Click to test
+            </button>
+          </div>
+        </div>
+        <div
+          class="min-w-1/2 flex h-40 items-center rounded-lg border-2 border-gray-200 p-5"
+        >
+          <a
+            href="/about"
+          >
+            <h2>
+              About Page →
+            </h2>
+            <p>
+              Cypress will test if this link is working.
+            </p>
+          </a>
+        </div>
+        <div
+          class="min-w-1/2 flex h-40 items-center rounded-lg border-2 border-gray-200 p-5"
+        >
+          <a
+            href="https://nextjs.org/docs"
+          >
+            <h2>
+              Documentation →
+            </h2>
+            <p>
+              Find in-depth information about Next.js features and API.
+            </p>
+          </a>
+        </div>
+        <div
+          class="min-w-1/2 flex h-40 items-center rounded-lg border-2 border-gray-200 p-5"
+        >
+          <a
+            href="https://nextjs.org/learn"
+          >
+            <h2>
+              Learn →
+            </h2>
+            <p>
+              Learn about Next.js in an interactive course with quizzes!
+            </p>
+          </a>
+        </div>
+        <div
+          class="min-w-1/2 flex h-40 items-center rounded-lg border-2 border-gray-200 p-5"
+        >
+          <a
+            href="https://github.com/vercel/next.js/tree/canary/examples"
+          >
+            <h2>
+              Examples →
+            </h2>
+            <p>
+              Discover and deploy boilerplate example Next.js projects.
+            </p>
+          </a>
+        </div>
+        <div
+          class="min-w-1/2 flex h-40 items-center rounded-lg border-2 border-gray-200 p-5"
+        >
+          <a
+            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <h2
+              class="className"
+            >
+              Deploy →
+            </h2>
+            <p
+              class="className"
+            >
+              Instantly deploy your Next.js site to a public URL with Vercel.
+            </p>
+          </a>
+        </div>
+      </div>
+    </main>
+    <footer
+      class="mt-10 flex items-center justify-center border-t border-gray-200 p-8"
+    >
+      <a
+        class="flex items-center justify-center gap-2"
+        href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        Powered by 
+        <span
+          class="h-4"
+        >
+          <img
+            alt="Vercel Logo"
+            data-nimg="1"
+            decoding="async"
+            height="16"
+            loading="lazy"
+            src="/vercel.svg"
+            style="color: transparent;"
+            width="72"
+          />
+        </span>
+      </a>
+    </footer>
+  </div>
+</DocumentFragment>
+`;
