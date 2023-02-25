@@ -23,8 +23,8 @@ const NavItem = ({ title, url, className, close }: Props) => {
         href={url}
         onClick={close}
         className={clsx(
-          'hover:font-bold hover:text-strongCyan ',
-          router.asPath === url && 'text-strongCyan'
+          'hover:font-bold hover:text-blue-400 ',
+          router.asPath === url && 'text-blue-400'
         )}
         scroll={true}
       >
