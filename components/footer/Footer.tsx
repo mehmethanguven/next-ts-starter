@@ -21,7 +21,6 @@ const Footer = () => {
                 </div>
               ))}
             </div>
-
             {/* <!-- Social Icons --> */}
             <div className="flex w-32 items-center justify-between py-1">
               {(socialLinks || []).map((item, id) => (

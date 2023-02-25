@@ -18,10 +18,10 @@ export default function Home() {
     })
   return (
     <div className="mx-auto flex flex-col items-center justify-center md:mb-10">
-      <h1 className="mt-10 mb-4 text-3xl font-bold text-gray-500 md:text-3xl">
+      <h1 className="mt-10 mb-4 p-4 text-3xl font-bold text-gray-500 md:text-3xl">
         Welcome to Next.js starter project
       </h1>
-      <p className="text-lg text-gray-500 md:text-lg">
+      <p className="p-4 text-lg text-gray-500 md:text-lg">
         Based on: Next.js - Typescript - Jest - Cypress - Tailwindcss - Eslint -
         Prettier - Lintstaged - Hasky
       </p>

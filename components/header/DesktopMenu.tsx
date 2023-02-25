@@ -1,11 +1,21 @@
+import clsx from 'clsx'
 import { headerNavLinks } from 'data'
 import { Logo } from '../Logo'
 import NavItem from '../nav/NavItem'
 
-export const DesktopMenu = () => {
+type Props = {
+  scroll: boolean
+}
+
+export const DesktopMenu = ({ scroll }: Props) => {
   return (
-    <div className="bg-white shadow-lg">
-      <div className="mx-auto hidden max-w-5xl items-center justify-center md:flex md:flex-row md:justify-start">
+    <div
+      className={clsx(
+        'border-cool-white border',
+        scroll && 'z-50 bg-white shadow-lg'
+      )}
+    >
+      <div className="mx-auto hidden max-w-6xl items-center justify-center md:flex md:flex-row md:justify-start">
         <div>
           <Logo />
         </div>
